@@ -1,0 +1,519 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald';
+}
+
+html {
+    scroll-behavior: smooth;        
+}
+/*SECCION INICIO*/
+#Inicio{
+    background:linear-gradient(rgba(72, 97, 180, 0.384), rgba(125, 181, 233, 0.1)), url("Imagenes/FondoAzul.svg");
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    
+}
+
+#Inicio .contenido header{
+    background-color:#4895ef;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    top: 0;
+}
+
+#Inicio .contenido header .contenido-header{
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    padding: 10px 20px;
+    
+}
+
+#Inicio .contenido header .contenido-header h1{
+    text-align: center;
+    padding:3px;
+    letter-spacing: 1pt;
+    color: #0d47a1;
+    text-shadow: 2px 2px 0px #f0f0f3;
+    font-weight:bold;
+}
+
+#Inicio .contenido header .contenido-header nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+#Inicio .contenido header .contenido-header nav ul li a{
+    text-decoration: none;
+    letter-spacing: 1pt;
+    color: rgb(255, 255, 255);
+    margin: 0 12px;
+    font-weight: lighter;
+    transition: .5s;
+    font-size: 24px;
+    
+}
+
+#Inicio .contenido header .contenido-header nav ul a:hover{
+    color: #0d47a1;
+}
+#Inicio .contenido .iconos-redes a{
+    text-decoration: none;
+    color:#fff;
+    display: inline-block;
+    margin-left: 10px;
+    transition: .5s;
+}
+#Inicio .contenido .iconos-redes a:hover{
+    color:#0d47a1
+}
+
+
+#Inicio .contenido .presentacion{
+    max-width: 1100px;
+    height: 100vh;
+    margin: auto;
+    columns: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+#Inicio .contenido .presentacion .bienvenida{
+    font-size: 40px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+#Inicio .contenido .presentacion h2{
+    font-size: 30px;
+    margin-bottom: 1px;
+    text-align: justify;
+    letter-spacing: 1px;
+    color: #fff;
+    font-weight: lighter;
+}
+
+#Inicio .contenido .presentacion h2 span{
+    font-size: 30px;
+    color:#fff;
+    text-shadow: 2px 0px 0px #272525;
+    font-weight: bold;
+}
+
+#Inicio .contenido .presentacion .descripcion{
+    max-width: 1100px;
+    margin:25px auto;
+    font-size: 20px;
+    text-align: center;
+    font-weight:300;
+}
+
+#Inicio .contenido .presentacion a{
+    text-decoration: none;
+    font-size: 18px;
+    display: inline-block;
+    margin: 25px;
+    padding: 10px 25px;
+    border: 2px solid white;
+    border-radius: 50px;
+    color: white;
+    font-weight:bold;
+    text-transform:uppercase;
+    transition: .5s;
+    color: white;
+    letter-spacing: 1px;
+}
+
+#Inicio .contenido .presentacion a:hover{
+    color: #4895ef;
+    background-color: white;
+    border-color:#0d47a1;
+}
+
+#iconos-nav{
+    color: #fff;
+    display: none;
+}
+/*SECCION SOBREMI*/
+#SobreMi{
+    max-width: 1400px;
+    margin:auto;
+    padding: 100px;
+    color: black;
+    display: flex;
+    height: 100vh;
+}
+
+
+#SobreMi .Contenedor-foto{
+    max-width: 400px;
+    margin-right: 50px;
+}
+
+#SobreMi .Contenedor-foto img{
+    padding: 10px;
+    width: 400px;
+    border-radius: 20px;
+    background-color:#0d47a1;
+}
+
+#SobreMi .SobreMi{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#SobreMi .SobreMi .Titulo-seccion{
+    text-align: center;
+    font-size: 40px;
+    text-transform: uppercase;
+    color:black;
+    text-decoration: underline;
+    text-decoration-color:#0d47a1;
+    text-decoration-thickness: 3px;
+}
+
+#SobreMi .SobreMi h2{
+    text-align: center;
+    font-size: 38px;
+    font-weight: bold;
+    margin: 20px 0;
+    letter-spacing: 1px;
+}
+
+#SobreMi h2 span{
+    color: #0d47a1;
+    text-align: center;
+}
+
+#SobreMi h3{
+    font-size: 20px;
+    text-align: center;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+    text-decoration: underline;
+    text-decoration-color: #0d47a1;
+
+}
+
+#SobreMi .SobreMi p{
+    font-size: 18px;
+    line-height: 20px;
+    color: black;
+    text-align: center;
+}
+
+#SobreMi .SobreMi a{
+    text-decoration: none;
+    font-size: 18px;
+    margin: 25px;
+    padding: 10px 25px;
+    border: 2px solid #0d47a1;
+    border-radius: 30px;
+    color: black;
+    font-weight:bold;
+    text-transform:uppercase;
+    transition: .5s;
+    letter-spacing: 1px;
+}
+
+#SobreMi .SobreMi a:hover{
+    color: #fff;
+    background-color:#4895ef;
+    border-color:#0d47a1;
+}
+
+/* CONOCIMIENTOS*/
+
+#Conocimientos{
+    text-align: center;
+    padding: 60px 15px;
+    background-color: #0d47a1;
+    height: 100vh;
+    
+}
+
+#Conocimientos .Titulo-seccion{
+    text-align: center;
+    font-size: 40px;
+    text-transform: uppercase;
+    color:#fff;
+    text-decoration: underline;
+    text-decoration-color:#4895ef;
+    text-decoration-thickness: 3px;
+}
+
+#Conocimientos .Contenedor-Datos{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1100px;
+    margin: 20px auto;
+    max-height: 270px;
+}
+
+#Conocimientos .Contenedor-Datos .fila-E{
+    background-color: #fff;
+    max-width: 350px;
+    padding: 30px;
+    margin: 0 5px;
+    border-radius: 10px;
+    transition: .5s;
+    
+}
+
+#Conocimientos .Contenedor-Datos .fila-E:hover{
+    background-color: #40916c;
+    color: #fff;
+   
+    
+}
+
+#Conocimientos .Contenedor-Datos .fila-W{
+    background-color: #fff;
+    max-width: 350px;
+    padding: 30px;
+    margin: 0 5px;
+    border-radius: 10px;
+    transition: .5s;
+  
+}
+
+#Conocimientos .Contenedor-Datos .fila-W:hover{
+    background-color: #1e88e5;
+    color: #fff;
+   
+}
+
+
+#Conocimientos .Contenedor-Datos .fila-P{
+    background-color: #fff;
+    max-width: 350px;
+    padding: 30px;
+    margin: 0 5px;
+    border-radius: 10px;
+    transition: .5s;
+    
+}
+
+#Conocimientos .Contenedor-Datos .fila-P:hover{
+    background-color: #f45866;
+    color: #fff;
+    
+}
+
+#Conocimientos .Contenedor-Datos .fila-M{
+    background-color: #fff;
+    max-width: 350px;
+    padding: 30px;
+    margin: 0 5px;
+    border-radius: 10px;
+    transition: .5s;
+    
+}
+
+#Conocimientos .Contenedor-Datos .fila-M:hover{
+    background-color: #880044;
+    color: #fff;
+
+}
+
+#Conocimientos .Contenedor-Datos .fila-S{
+    background-color: #fff;
+    max-width: 350px;
+    padding: 30px;
+    margin: 0 5px;
+    border-radius: 10px;
+    transition: .5s;
+    
+}
+
+#Conocimientos .Contenedor-Datos .fila-S:hover{
+    background-color: #6930c3;
+    color: #fff;
+   
+}
+
+#Conocimientos .Contenedor-Datos .fila-H{
+    background-color: #fff;
+    max-width: 350px;
+    padding: 30px;
+    margin: 0 5px;
+    border-radius: 10px;
+    transition: .5s;
+ 
+}
+
+#Conocimientos .Contenedor-Datos .fila-H:hover{
+    background-color: #1b263b;
+    color: #fff;
+   
+}
+
+#Conocimientos .Contenedor-Datos h4{
+    font-size: 22px;
+    margin-bottom: 1px;
+   
+}
+
+#Conocimientos .Contenedor-Datos .Icono{
+    font-size: 30px;
+}
+
+#Conocimientos .Contenedor-Datos hr{
+    width: 25%;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+#Conocimientos .Contenedor-Datos ul{
+    list-style:none;
+}
+
+/* SECCION DE HABILIDADES*/
+
+.Contenedor-Habilidades{
+    background:linear-gradient(rgba(72, 97, 180, 0.384), rgba(125, 181, 233, 0.1)), url("Imagenes/FondoAzul.svg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    background-position: center center;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.Contenedor-Habilidades h3{
+    letter-spacing: 2px;
+    font-size: 30px;
+    text-decoration: underline;
+    text-decoration-color: #fff;
+    font-weight: lighter;
+}
+
+.Contenedor-Habilidades .Habilidad{
+    max-width: 600px;
+    margin: 30px auto;
+}
+
+.Contenedor-Habilidades .Habilidad .info{
+    display: flex;
+    justify-content:space-between;
+    
+}
+
+.Contenedor-Habilidades .Habilidad .lista{
+    display: inline-block;
+    margin-right: 20px;
+    height: 10px;
+    width: 10px;
+    background-color: #fff;    
+}
+
+.Contenedor-Habilidades .Habilidad .barra{
+    background-color: #bbb2b2;
+    width: 100%;
+    height: 6px;
+    margin: 10px 0;
+}
+
+.Contenedor-Habilidades .Habilidad .barra .barra-progreso1{
+    background-color: #fff;
+    width: 70%;
+    height: 6px;
+    animation: progreso1 2s forwards;
+}
+
+.Contenedor-Habilidades .Habilidad .barra .barra-progreso2{
+    background-color: #fff;
+    width: 20%;
+    height: 6px;
+    animation: progreso2 2s forwards;
+}
+
+.Contenedor-Habilidades .Habilidad .barra .barra-progreso3{
+    background-color: #fff;
+    width: 55%;
+    height: 6px;
+    animation: progreso3 2s forwards;
+}
+
+.Contenedor-Habilidades .Habilidad .barra .barra-progreso4{
+    background-color: #fff;
+    width: 25%;
+    height: 6px;
+    animation: progreso4 2s forwards;
+}
+
+.Contenedor-Habilidades .Habilidad .barra .barra-progreso5{
+    background-color: #fff;
+    width: 50%;
+    height: 6px;
+    animation: progreso5 2s forwards;
+}
+
+/* Animacion de las barras*/
+
+@keyframes progreso1{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 70%;
+    }
+}
+
+@keyframes progreso2{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 20%;
+    }
+}
+
+@keyframes progreso3{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 55%;
+    }
+}
+
+@keyframes progreso4{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 25%;
+    }
+}
+
+@keyframes progreso5{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 50%;
+    }
+}
+
+
+
+
+
+
